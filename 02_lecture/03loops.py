@@ -18,7 +18,8 @@ as long as a specified condition is true. It has the following syntax:
 #
 # j = 1
 # while j < 10:
-#     print(j) # print(j, end="")
+#     print(j)
+#     print(j, end="")
 #     j += 1
 
 """
@@ -61,9 +62,9 @@ Break vs Condition
 #     sum += number
 #
 # print (f"The sum is {sum}")
-#
-# # 2nd version without the break command
-#
+
+# 2nd version without the break command
+
 # sum = 0
 # number = 0
 #
@@ -105,14 +106,14 @@ Nested loops in programming refer to the situation where one loop is placed insi
 Nested loops are used for various purposes, including:
     Matrix Operations: When dealing with matrices or multi-dimensional lists, nested loops are commonly used 
     to iterate over each element in the matrix.
-    
+
     Searching and Sorting Algorithms: Many searching and sorting algorithms involve nested loops. For example, 
     in a two-dimensional list, nested loops might be used to compare each element with every other element for sorting purposes.
-    
+
     Pattern Printing: Nested loops are often used to print patterns, such as triangles, rectangles, or other shapes.
-    
+
     Generating Combinations and Permutations: Nested loops can be used to generate combinations or permutations of elements.
-    
+
     Traversal of Hierarchical Data Structures: Nested loops are useful for traversing hierarchical data structures such 
     as trees or graphs, where each node may have multiple children.
 """

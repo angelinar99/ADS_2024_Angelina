@@ -5,6 +5,7 @@ Short Debugging Demo
 number_of_characters = len(input("Enter a word:"))  # the len function can be used to find out the length of a string
 
 print("Your word has " + str(number_of_characters) + " characters.")
+#print(f"Your word has, {number_of_characters} + " charachters.")
 
 if number_of_characters < 1:
     print("No empty input allowed...")
@@ -21,6 +22,7 @@ print("After if/else branch")
 ## More typecasting
 temperature = float(input("Please type in a temperature: "))
 
-print("The temperature is", temperature)
+print(f"The temperature is: {temperature}")
+print("The temperature is " + str(temperature))
 
 print("...and rounded down it is", int(temperature))

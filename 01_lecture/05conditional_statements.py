@@ -66,10 +66,10 @@ has_citizenship = True
 
 # Logical "and"
 can_vote = voting_age <= age and has_citizenship
-print(f"Can the person vote? {can_vote}")
+print(f"Can the person vote?: {can_vote}")
 
 # Logical "or"
 parents_attending = True
 allowed_to_enter = age > 18 or parents_attending
-
+print(f"Can the person enter? {allowed_to_enter}")
 

@@ -3,11 +3,11 @@ Using only if statements for program flow leads to multiple executions of condit
 """
 number = int(input("Please type in a number: "))
 
-if number < 0:  # this expression is evaluated on each execution
-    print("The number is negative")
+#if number < 0:  # this expression is evaluated on each execution
+    #print("The number is negative")
 
-if number >= 0: # this expression is evaluated on each execution
-    print("The number is positive or zero")
+#if number >= 0: # this expression is evaluated on each execution
+    #print("The number is positive or zero")
 
 """
 Instead of creating a whole another conditional statement, as in the example above, 
@@ -47,8 +47,8 @@ elif date == "Dec 31":
     print("It's Hogmanay")
 elif date == "Jan 1":
     print("It's New Year's Day")
-
-print("Thanks and bye.")
+else:
+    print("Thanks and bye.")
 
 """
 Combining conditions
@@ -74,7 +74,7 @@ elif n2 > n3 and n2 > n4:
 elif n3 > n4:
     greatest = n3
 else:
-    greatest = n4
+    greatest = n423
 
 print(f" {greatest} is the greatest of the numbers.")
 
