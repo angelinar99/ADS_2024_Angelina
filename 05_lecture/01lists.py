@@ -89,3 +89,25 @@ sublist = numbers[1:4]  # Slices from index 1 to 3
 print(sublist)  # prints: [3, 4, 5]
 stepped_sublist = numbers[0:5:2]  # Slices from index 0 to 4 with a step of 2
 print(stepped_sublist)  # prints: [2, 4, 6]
+
+def has_33(nums):
+    for i in range(len(nums) - 1):
+        if nums[i] == 3 and nums[i + 1] == 3:
+            return True
+    return False
+
+print("HEllo")
+
+if __name__ == "__main__":
+    # Test cases
+    call1 = [1, 3, 3]
+    call2 = [1, 3, 1, 3]
+    call3 = [3, 1, 3]
+
+    result1 = has_33(call1)
+    result2 = has_33(call2)
+    result3 = has_33(call3)
+
+    print("1:", result1)
+    print("2:", result2)
+    print("3:", result3)

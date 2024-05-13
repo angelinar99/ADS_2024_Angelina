@@ -8,7 +8,7 @@ Example:
     Please type in an amount: >> 4
     heyheyheyhey
 """
-Ask the user for a string and an amount
+# Ask the user for a string and an amount
 input_string = input("Please enter a string: ")
 amount = int(input("Please enter the amount of times to repeat: "))
 
@@ -129,7 +129,7 @@ Example:
 width = int(input("Please enter the width of the line: "))
 height = int(input("Please enter the height of the line: "))
 # Print a rectangle of hash characters with the specified width and height
-for _ in range(height): #for _ I can use i
+for x in range(height): #for _ I can use i
     print("#" * width)
 
 """
@@ -196,6 +196,7 @@ Example:
 user_string = input("Please type in a string: ")
 for i in range(0, len(user_string) + 1):
     print(user_string[:i])
+
 # Run the function
 
 

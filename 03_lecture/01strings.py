@@ -271,3 +271,46 @@ for i in range(len(my_string)):
     print(my_string[i])
 
 
+def count_upper_lower(string):
+
+    upper_count = 0
+    lower_count = 0
+
+
+    for char in string:
+
+        if char.isupper():
+            upper_count += 1
+
+        elif char.islower():
+            lower_count += 1
+
+
+    print("Number of uppercase letters:", upper_count)
+    print("Number of lowercase letters:", lower_count)
+
+
+
+count_upper_lower("Hello World")
+
+
+def has_33(nums):
+    for i in range(len(nums) - 1):
+        if nums[i] == 3 and nums[i + 1] == 3:
+            return True
+    return False
+
+
+if __name__ == "__main__":
+    # Test cases
+    test1 = [1, 3, 3]
+    test2 = [1, 3, 1, 3]
+    test3 = [3, 1, 3]
+
+    result1 = has_33(test1)
+    result2 = has_33(test2)
+    result3 = has_33(test3)
+
+    print("Test 1:", result1)
+    print("Test 2:", result2)
+    print("Test 3:", result3)

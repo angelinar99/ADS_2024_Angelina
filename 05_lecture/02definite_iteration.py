@@ -42,8 +42,9 @@ for item in my_list:
 """
 Range and For loop
 
-Often you know how many times you want to repeat a certain bit of code. You might, for example, wish to go through all the numbers between 1 and 100. The range function plugged into a for loop will do this for you.
-
+Often you know how many times you want to repeat a certain bit of code. 
+You might, for example, wish to go through all the numbers between 1 and 100.
+The range function plugged into a for loop will do this for you.
 There are a few different ways to call the range function. The simplest way is to give the function just one argument, 
 which signifies the end-point of the range. The end-point itself is excluded, just like with string slices. 
 In other words, the function call range(n) provides a loop with a range from 0 to n-1:
@@ -53,7 +54,8 @@ for i in range(5):
     print(i, end="") # prints 01234
 
 """
-With two arguments, the function will return a range between the two numbers. The function range(a,b) provides a range starting from a and ending at b-1:
+With two arguments, the function will return a range between the two numbers. 
+The function range(a,b) provides a range starting from a and ending at b-1:
 """
 for i in range(3, 7):
     print(i, end="") # prints 3456

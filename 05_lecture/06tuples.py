@@ -58,3 +58,18 @@ my_dictionary["banaani"] = "banana"
 for key, value in my_dictionary.items():
     print("key:", key)
     print("value:", value)
+
+# def print_multiplication(number: int, rows: int) -> None:
+#
+#     if number <= 0 or rows <= 0:
+#         print("Error: Number and rows cannot be less than 1.")
+#         return
+#
+#     for i in range(1, rows +1):
+#         print(f"{number} * {i} = {number * i}")
+#
+# print_multiplication(6, 3)
+# print_multiplication(10,2)
+# print_multiplication(0, 0)
+# print_multiplication(-10, 2)
+# print_multiplication(2,-2)
