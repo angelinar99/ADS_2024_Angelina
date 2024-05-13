@@ -97,7 +97,7 @@ def has_33(nums):
     return False
 
 print("HEllo")
-
+print (has_33(new_numbers))
 if __name__ == "__main__":
     # Test cases
     call1 = [1, 3, 3]
