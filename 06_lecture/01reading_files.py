@@ -1,3 +1,9 @@
+
+mystring = "   \t dshhwehe   "
+
+print(mystring.strip())
+print(mystring.lstrip())
+
 """
 A simple way to include files in a Python program is to use the with statement.
 The header line opens the file, and the block where the file can be accessed follows.
@@ -125,8 +131,14 @@ import json
 with open("courses.json") as my_file:
     data = my_file.read()
 
+# print(data)
+# for i in data:
+#     print(i[0])
+
+
 courses = json.loads(data)
 print(courses)
 
 for course in courses:
     print(course["name"])
+    print(course["lecturer"])

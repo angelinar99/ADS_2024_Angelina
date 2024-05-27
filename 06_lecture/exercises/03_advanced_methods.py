@@ -1,7 +1,9 @@
-with open("..\Bee Movie Script.txt") as bee_script:
+
+# reuse scripts inside your exercise functions
+with open("Bee Movie Script.txt") as bee_script:
     bee_script = [line for line in bee_script.readlines()]
 
-with open("..\Calories.txt") as calories:
+with open("Calories.txt") as calories:
     calories = [line for line in calories.readlines()]
 
 def countWordOccurences():

@@ -130,18 +130,34 @@ Nested loops are used for various purposes, including:
 """
 Pattern printing example.
 """
-# rows = 5
-#
-# # Outer loop for rows
-# i = 1
-# while i <= rows:
-#     # Inner loop for columns
-#     j = 1
-#     while j <= i:
-#         print("*", end=" ")  # Print asterisk
-#         j += 1
-#     print()  # Move to the next line after printing each row
-#     i += 1
+rows = 5
+
+# Outer loop for rows
+i = 1
+while i <= rows:
+    # Inner loop for columns
+    j = 1
+    while j <= i:
+        print("*", end=" ")  # Print asterisk
+        j += 1
+    print()  # Move to the next line after printing each row
+    i += 1
+
+
+print("#####")
+i = 5
+while i > 0:
+    j = 0
+    while j < i:
+        print("*", end=" ")
+        j += 1
+    print()
+    i -= 1
+
+fruits = {'apple': 10, 'banana': 5, 'orange': 8}
+fruits['banana'] = 7
+fruits['grape'] = 3
+del fruits['apple']
 
 """
 PIN and number attempts

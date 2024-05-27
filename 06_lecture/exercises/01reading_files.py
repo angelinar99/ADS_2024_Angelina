@@ -7,7 +7,28 @@ Notice that the function does not take any arguments. The file you are working w
 """
 # Write your solution here
 
+def largest():
+    # with open("numbers.txt") as new_file:
+    #     largest_number = 0
+    #     for line in new_file:
+    #         line = line.replace("\n", "")
+    #         number = int(line)
+    #         if largest_number < number:
+    #             largest_number = number
+    #
+    #     return largest_number
 
+    list = []
+    with open("numbers.txt") as new_file:
+        for line in new_file:
+            line = line.replace("\n", "")
+            list.append(int(line))
+        print(list)
+        list.sort()
+        print(list)
+        return list[len(list)-1]
+
+largest()
 """
 The file fruits.csv contains names of fruits, and their prices (see fruits.csv)
 
